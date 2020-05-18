@@ -14,5 +14,6 @@ FROM
 WHERE
 	first_name = 'Georgi'
 		AND last_name = 'Facello';
-        
+		
+-- Create index for multiple columns --       
 CREATE INDEX i_full ON employees(first_name, last_name);
