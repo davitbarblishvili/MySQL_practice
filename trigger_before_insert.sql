@@ -1,7 +1,7 @@
 DELIMITER $$
-CREATE TRIGGER trig_hire_date  
-BEFORE INSERT 
-ON 
+CREATE TRIGGER 
+	trig_hire_date  
+BEFORE INSERT ON 
 	employees
 FOR EACH ROW  
 	BEGIN  
